@@ -1,0 +1,41 @@
+/* Sitewide Feature */
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Navigation */
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+#nav-create-account {
+    background-color: #02676B;
+    border: 1px solid #02676B;
+    color: #fff;
+}
+
+#nav-sign-in {
+    border: 1px solid #02676B;
+    color: #02676B;
+    margin-bottom: 20px;
+}
+
+/* Overview */
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+    #nav-sign-in {
+        border: none;
+        color: inherit;
+    }
+}
