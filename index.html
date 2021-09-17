@@ -4,12 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
+    <!--Custom CSS-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
     <title>Overview</title>
 </head>
 
 <body>
+    <!--Navigation-->
+    <header>
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <!--Mobile nav toggle-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMobile">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Overview</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        <hr>
+                        <a class="btn btn-outline-dark" href="#" role="button">Sign In</a>
+                        <a class="btn btn-dark" href="#" role="button">Create Account</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="container-fluid">
         <h1>Main</h1>
     </div>
@@ -17,6 +48,13 @@
     <footer>
         <h1>Footer</h1>
     </footer>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!--Custom JS-->
     <script href="assets/js/script.js"></script>
 </body>
 
