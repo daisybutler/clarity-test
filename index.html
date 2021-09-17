@@ -19,7 +19,7 @@
 <body>
     <!--Navigation-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="/assets/images/logo.png" alt="" width="200" height="50">
@@ -28,30 +28,36 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse mt-3" id="navbarNav">
                     <ul class="navbar-nav mb-2 mb-lg-0">
+                        <hr>
                         <li class="nav-item">
                             <a class="nav-link" href="#" role="button">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                            <a class="nav-link" href="#">Overview</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a id="nav-contact" class="nav-link" href="#">Contact</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item">
+                            <a id="nav-sign-in" class="nav-link btn btn-outline-dark me-3" type="button" href="#">Sign In</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-outline-dark" type="button" href="#">Sign In</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-primary" type="button" href="#">Create Account</a>
+                            <a id="nav-create-account" class="nav-link btn btn-primary me-3" type="button" href="#">Create Account</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container-fluid">
-        <h1>Main</h1>
+    <div id="section1" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img id="main-image" src="assets/images/landing-image.jpg" alt="product example" width="100%" height="auto">
+            </div>
+        </div>
     </div>
 
     <footer>
