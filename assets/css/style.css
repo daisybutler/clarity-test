@@ -144,6 +144,11 @@ a, p {
 }
 
 /* Footer */
+
+footer i {
+    font-size: 20px;
+}
+
 #copyright {
     background-color: #3F0A3D;
     font-size: 10px;
@@ -172,6 +177,13 @@ a, p {
     }
     .circle h3 {
         font-size: 70px;
+    }
+    footer i {
+        font-size: 30px;
+    }
+    
+    footer ul {
+        padding-right: 20px;
     }
 }
 
