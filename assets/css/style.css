@@ -103,6 +103,7 @@ a, p {
 #section2 {
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .circle {
@@ -141,6 +142,23 @@ a, p {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+/* Section 3 */
+
+#section3 {
+    padding-top: 100px;
+    background-color: #E2E5F2;
+    padding-bottom: 100px;
+}
+
+.card {
+    box-shadow: 2px 2px 10px rgb(63, 63, 63);
+}
+
+.card-title {
+    font-size: 40px;
+    font-weight: 700;
 }
 
 /* Footer */
