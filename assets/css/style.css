@@ -131,6 +131,14 @@ a, p {
     transform: translate(-50%,-50%);
 }
 
+.circle-icon {
+    opacity: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 /* Footer */
 #copyright {
     background-color: #3F0A3D;
@@ -187,6 +195,9 @@ a, p {
         width: 400px;
         height: 400px;
     }
+    .circle-hover-text {
+        font-size: 20px;
+    }
 }
 
 /* Large */
@@ -195,6 +206,9 @@ a, p {
         width: 300px;
         height: 300px;
     }
+    .circle-hover-text {
+        font-size: 15px;
+    }
 }
 
 /* X-large */
@@ -202,5 +216,8 @@ a, p {
     .circle {
         width: 400px;
         height: 400px;
+    }
+    .circle-hover-text {
+        font-size: 20px;
     }
 }
