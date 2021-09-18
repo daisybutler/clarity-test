@@ -93,6 +93,19 @@ a, p {
     color: #fff;
 }
 
+/* Footer */
+#copyright {
+    background-color: #3F0A3D;
+    font-size: 10px;
+    color: #fff;
+}
+
+#copyright p {
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+
 /* Media Queries */
 
 /* Small */
@@ -121,6 +134,9 @@ a, p {
         font-size: 70px;
     }
     #section1 p {
+        font-size: 25px;
+    }
+    #shop-products-button {
         font-size: 25px;
     }
 }
