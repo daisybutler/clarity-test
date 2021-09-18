@@ -78,6 +78,10 @@ a, p {
     box-shadow: none;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 /* Section 1 */
 
 #section1 {
