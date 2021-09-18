@@ -104,10 +104,31 @@ a, p {
 .circle {
     height: 250px;
     width: 250px;
-    background-color: #bbb;
+    background-color: #02676B;
     border-radius: 50%;
     display: inline-block;
     margin-top: 30px;
+    position: relative;
+}
+
+.circle h3 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.circle-hover-text {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 /* Footer */
@@ -136,6 +157,9 @@ a, p {
     .circle {
         width: 350px;
         height: 350px;
+    }
+    .circle h3 {
+        font-size: 70px;
     }
 }
 
