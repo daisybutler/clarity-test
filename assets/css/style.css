@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;900&display=swap');
 
 /* Sitewide Features */
-html {
-    scroll-behavior: smooth;
-}
 
-body {
+html, body {
     font-family: "Mulish", sans-serif;
+    max-width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -93,18 +94,33 @@ a, p {
     color: #fff;
 }
 
+/* Section 2 */
+
+#section2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.circle {
+    height: 250px;
+    width: 250px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
 /* Footer */
 #copyright {
     background-color: #3F0A3D;
     font-size: 10px;
     color: #fff;
+    height: 20px;
 }
 
 #copyright p {
-    padding-top: 10px;
     font-weight: 300;
 }
-
 
 /* Media Queries */
 
@@ -116,6 +132,10 @@ a, p {
     }
     #section1 p {
         font-size: 20px;
+    }
+    .circle {
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -138,5 +158,25 @@ a, p {
     }
     #shop-products-button {
         font-size: 25px;
+    }
+    .circle {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* Large */
+@media screen and (min-width: 992px){
+    .circle {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* X-large */
+@media (min-width: 1200px) {
+    .circle {
+        width: 400px;
+        height: 400px;
     }
 }
