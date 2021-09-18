@@ -10,6 +10,10 @@ body {
     font-family: "Mulish", sans-serif;
 }
 
+h1, h2, h3, h4 {
+    font-weight: 800;
+}
+
 a, p {
     font-weight: 600;
 }
@@ -73,19 +77,50 @@ a, p {
     box-shadow: none;
 }
 
-/* Overview */
+/* Section 1 */
 
+#section1 {
+    text-align: center;
+}
+
+#section1 h1 {
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+#shop-products-button {
+    background-color: #02676B;
+    color: #fff;
+}
 
 /* Media Queries */
+
+/* Small */
+@media (min-width: 576px){
+    #section1 h1 {
+        font-size: 55px;
+        padding-top: 70px;
+    }
+    #section1 p {
+        font-size: 20px;
+    }
+}
+
+/* Medium */
 @media (min-width: 768px) {
     #nav-sign-in {
         border: none;
         color: inherit;
         padding-left: 25px;
     }
-
     #nav-contact {
         border-right: 1px solid #DDDDDD;
         padding-right: 25px;  
+    }
+    #section1 h1 {
+        font-size: 70px;
+    }
+    #section1 p {
+        font-size: 25px;
     }
 }
