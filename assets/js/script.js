@@ -12,10 +12,12 @@ $(document).ready(function(){
         $(this).css("background-color", "rgba(2, 103, 107,.5)");
         $(this).children('.circle h3').addClass("d-none");
         $(this).children('.circle-hover-text').toggleClass("d-none");
+        $(this).children('.circle-icon').addClass("d-none");
     });
     $('.circle').mouseleave(function(){
         $(this).css("background-color", "#02676B");
         $(this).children('.circle h3').removeClass("d-none");
         $(this).children('.circle-hover-text').toggleClass("d-none");
+        $(this).children('.circle-icon').removeClass("d-none");
     });
 });
