@@ -83,7 +83,7 @@ a, p {
     text-decoration: underline;
 }
 
-/* Section 1 */
+/* Section 1 - landing image */
 
 #section1 {
     text-align: center;
@@ -111,7 +111,7 @@ a, p {
     color: #fff;
 }
 
-/* Section 2 */
+/* Section 2: Info circles */
 
 #section2 {
     text-align: center;
@@ -157,7 +157,7 @@ a, p {
     transform: translate(-50%,-50%);
 }
 
-/* Section 3 */
+/* Section 3: Sale */
 
 #section3 {
     padding-top: 50px;
@@ -181,7 +181,7 @@ a, p {
     opacity: 0.6;
 }
 
-/* Blogs: Section 4 */
+/* Section 4: Blogs */
 
 #blog-section {
     padding: 50px 50px;
@@ -234,7 +234,7 @@ a, p {
     color: #3F0A3D;
 }
 
-/* Section 5: update section */
+/* Section 5: Update */
 
 #update-section {
     padding: 50px 10px 50px 10px;
@@ -355,9 +355,14 @@ footer i {
     #section1 p {
         font-size: 20px;
     }
-    #shop-products-button {
+    h2 ~ .btn, #section3 .btn {
         font-size: 25px;
     }
+
+    #blog-section .btn {
+        font-size: 25px;
+    }
+  
     #section2 {
         padding-left: 50px;
         padding-right: 50px;
