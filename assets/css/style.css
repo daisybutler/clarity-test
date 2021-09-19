@@ -28,10 +28,11 @@ a, p {
     box-shadow: none;
 }
 
+/*
 .btn:hover {
     background-color: #3F0A3D;
     color: #fff!important;
-}
+} */
 
 /* Navigation */
 .navbar-collapse {
@@ -86,10 +87,22 @@ a, p {
 
 #section1 {
     text-align: center;
+    position: relative;
 }
 
-#section1 h1 {
-    font-size: 40px;
+#brand-line {
+    position: absolute;
+    top: 20%;
+    left: 40px;
+}
+
+#brand-line h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #3F0A3D;
+}
+
+#section1 h2 {
     padding-top: 50px;
 }
 
@@ -243,7 +256,6 @@ a, p {
 
 #help-link {
     text-decoration: none;
-  
 }
 
 .toast-header h4 {
@@ -258,6 +270,10 @@ a, p {
     color: #000;
 }
 
+#helpToast i {
+    color: #02676B;
+    font-size: 20px;
+}
 
 /* Footer */
 
@@ -280,10 +296,10 @@ footer i {
 
 /* Small */
 @media (min-width: 576px){
-    #section1 h1 {
+    /* #section1 h1 {
         font-size: 55px;
         padding-top: 70px;
-    }
+    } */
     #section1 p {
         font-size: 20px;
     }
@@ -317,8 +333,12 @@ footer i {
         border-right: 1px solid #DDDDDD;
         padding-right: 25px;  
     }
-    #section1 h1 {
-        font-size: 70px;
+    #brand-line {
+        left: 60px;
+        top: 22.5%;
+    }
+    #brand-line h1 {
+        font-size: 40px;
     }
     #section1 p {
         font-size: 25px;
@@ -358,6 +378,13 @@ footer i {
         padding-left: 50px;
         padding-right: 50px;
     }
+    #brand-line {
+        left: 100px;
+        top: 25%;
+    }
+    #brand-line h1 {
+        font-size: 50px;
+    }
 }
 
 /* X-large */
@@ -368,5 +395,12 @@ footer i {
     }
     #blog-section {
         padding: 50px 200px;
+    }
+    #brand-line {
+        left: 130px;
+        top: 25%;
+    }
+    #brand-line h1 {
+        font-size: 60px;
     }
 }
