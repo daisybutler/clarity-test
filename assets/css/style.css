@@ -148,8 +148,17 @@ a, p {
 
 #section3 {
     padding-top: 100px;
-    background-color: #E2E5F2;
+    background-color: #dddddd;
     padding-bottom: 100px;
+    text-align: center;
+}
+
+#section3 .btn {
+    background-color: #3F0A3D;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
 }
 
 .card {
