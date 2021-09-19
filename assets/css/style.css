@@ -368,7 +368,7 @@ footer i {
     #brand-line h1 {
         font-size: 40px;
     }
-    p:not(#toast-p) {
+    h2 ~ p:not(#toast-p) {
         font-size: 20px;
     }
     h2 ~ .btn, #section3 .btn {
