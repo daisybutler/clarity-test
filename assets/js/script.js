@@ -20,18 +20,14 @@ $(document).ready(function(){
         $(this).children('.circle-hover-text').toggleClass("d-none");
         $(this).children('.circle-icon').removeClass("d-none");
     });
+    // Show help box on small device types (>576px) and above
     $(function(){
-        function show_toast(){
-            $('.toast').toast('show');
+        var windowsize = $(window).width();
+        if (windowsize > 576){
+            function show_toast(){
+                $('.toast').toast('show');
+            };
+            window.setTimeout( show_toast, 1000 ); // 5 seconds
         };
-        window.setTimeout( show_toast, 1000 ); // 5 seconds
      });
 });
-
-
-/*
-// Help toast
-$(window).scroll(function () {
-	($(window).scrollTop() > 300);
-		$('.toast').toast('show');
-}); */
