@@ -345,6 +345,9 @@ footer i {
     footer ul {
         padding-right: 20px;
     }
+    #copyright {
+        height: 30px;
+    }
 }
 
 /* Medium */
@@ -390,12 +393,6 @@ footer i {
     #blog-section {
         padding: 50px 100px;
     }
-    #update-section {
-        text-align: right;
-    }
-    #update-text {
-        padding-top: 5%;
-    }
 }
 
 /* Large */
@@ -417,6 +414,12 @@ footer i {
     }
     #brand-line h1 {
         font-size: 50px;
+    }
+    #update-section {
+        text-align: right;
+    }
+    #update-text {
+        padding-top: 5%;
     }
 }
 
