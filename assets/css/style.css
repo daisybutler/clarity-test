@@ -203,6 +203,12 @@ a, p {
     background-color: #fff;
 }
 
+#blog-section a {
+    text-align: center;
+    background-color: #fff;
+    color: #3F0A3D;
+}
+
 /* Section 5: Email Signup */
 
 #email-signup {
