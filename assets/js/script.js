@@ -27,7 +27,7 @@ $(document).ready(function(){
             function show_toast(){
                 $('.toast').toast('show');
             };
-            window.setTimeout( show_toast, 1000 ); // 5 seconds
+            window.setTimeout( show_toast, 5000 ); // 5 seconds
         };
      });
 });
