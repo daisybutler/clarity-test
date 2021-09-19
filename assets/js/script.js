@@ -20,4 +20,18 @@ $(document).ready(function(){
         $(this).children('.circle-hover-text').toggleClass("d-none");
         $(this).children('.circle-icon').removeClass("d-none");
     });
+    $(function(){
+        function show_toast(){
+            $('.toast').toast('show');
+        };
+        window.setTimeout( show_toast, 1000 ); // 5 seconds
+     });
 });
+
+
+/*
+// Help toast
+$(window).scroll(function () {
+	($(window).scrollTop() > 300);
+		$('.toast').toast('show');
+}); */
