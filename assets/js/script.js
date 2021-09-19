@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     // Hover behaviour of section 2 info circles
     $('.circle').mouseenter(function(){
-        $(this).css("background-color", "rgba(2, 103, 107,.5)");
+        $(this).css("background-color", "rgba(2, 103, 107,.6)");
         $(this).children('.circle h3').addClass("d-none");
         $(this).children('.circle-hover-text').toggleClass("d-none");
         $(this).children('.circle-icon').addClass("d-none");
@@ -20,7 +20,8 @@ $(document).ready(function(){
         $(this).children('.circle-hover-text').toggleClass("d-none");
         $(this).children('.circle-icon').removeClass("d-none");
     });
-    // Show help box on small device types (>576px) and above
+
+    // Show help box on small (576px) device types and above
     $(function(){
         var windowsize = $(window).width();
         if (windowsize > 576){
