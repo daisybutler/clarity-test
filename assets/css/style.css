@@ -368,17 +368,15 @@ footer i {
     #brand-line h1 {
         font-size: 40px;
     }
-    p {
+    p:not(#toast-p) {
         font-size: 20px;
     }
     h2 ~ .btn, #section3 .btn {
         font-size: 25px;
     }
-
     #blog-section .btn {
         font-size: 25px;
     }
-  
     #section2 {
         padding-left: 50px;
         padding-right: 50px;
