@@ -157,24 +157,48 @@ a, p {
     font-size: 30px;
 }
 
-
 #section3 .btn {
     background-color: #3F0A3D;
     color: #fff;
     padding: 10px;
-    margin: 20px;
+    margin: 15px;
 }
 
-.card {
-    box-shadow: 2px 2px 10px rgb(63, 63, 63);
+/* Blogs: Section 4 */
+
+#blog-section {
+    padding: 50px 50px;
+    background-color: #3F0A3D;
+}
+
+#blog-section h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+#blog-section h2 + p {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 300;
 }
 
 .card-title {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 700;
 }
 
-/* Email Signup */
+.card img {
+    max-height: 70%;
+    width: 100%;
+}
+
+.card-footer {
+    background-color: #fff;
+}
+
+/* Section 5: Email Signup */
 
 #email-signup {
     background-color: #000;
@@ -271,6 +295,9 @@ footer i {
     .circle-hover-text {
         font-size: 20px;
     }
+    #blog-section {
+        padding: 50px 100px;
+    }
 }
 
 /* Large */
@@ -292,5 +319,8 @@ footer i {
     }
     .circle-hover-text {
         font-size: 20px;
+    }
+    #blog-section {
+        padding: 50px 200px;
     }
 }
