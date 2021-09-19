@@ -201,6 +201,14 @@ a, p {
     font-weight: 300;
 }
 
+.card {
+    border-radius: 0;
+}
+
+.card-footer {
+    border-top: none;
+}
+
 .card:hover {
     transform: scale(1.05);
     transition: all .2s ease-in-out;
