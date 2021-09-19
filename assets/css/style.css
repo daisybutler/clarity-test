@@ -264,6 +264,9 @@ footer i {
     .circle h3 {
         font-size: 70px;
     }
+    .circle-hover-text {
+        font-size: 20px;
+    }
     footer i {
         font-size: 30px;
     }
@@ -293,12 +296,19 @@ footer i {
     #shop-products-button {
         font-size: 25px;
     }
+    #section2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     .circle {
-        width: 400px;
-        height: 400px;
+        width: 200px;
+        height: 200px;
     }
     .circle-hover-text {
-        font-size: 20px;
+        font-size: 12px;
+    }
+    .circle h3 {
+        font-size: 30px;
     }
     #blog-section {
         padding: 50px 100px;
@@ -314,16 +324,17 @@ footer i {
     .circle-hover-text {
         font-size: 15px;
     }
+    #section2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 /* X-large */
 @media (min-width: 1200px) {
-    .circle {
-        width: 400px;
-        height: 400px;
-    }
-    .circle-hover-text {
-        font-size: 20px;
+    #section2 {
+        padding-left: 160px;
+        padding-right: 160px;
     }
     #blog-section {
         padding: 50px 200px;
